@@ -1,0 +1,12 @@
+html{
+    font-size: 10px;
+}
+
+p {
+    font-size: 30px;
+    color:#04cf5c;
+}
+
+.rems {
+    font-size: 1rem; 
+}
