@@ -1,0 +1,5 @@
+@media all and (min-width: 400px) {
+    h2 {
+        display: none;
+    }
+}
