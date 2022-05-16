@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+nav {
+    background-color: rgb(226, 156, 236) ;
+}
+
+.nav-container {
+    padding: 1rem 1rem;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-title {
+    font-family: 'KOTRAHOPE', cursive;
+}
+
+@font-face {
+    font-family: 'BinggraeSamanco-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/BinggraeSamanco-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-contact{
+    border: 0;
+    background: none;
+    cursor: pointer;
+    font-family:'BinggraeSamanco-Bold', cursive;
+}
