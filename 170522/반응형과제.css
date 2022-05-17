@@ -6,9 +6,9 @@
 }
 
 @media all and (min-width: 1024px) {
-    nav {
-      width: 1024px;
-      float: center;
+    .inner {
+        max-width: 1024px;
+        margin: 0 auto;
     }
 }
 
